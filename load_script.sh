@@ -2,24 +2,23 @@
 set -euo pipefail
 
 # -------------------------
-# CONFIGURATION PARAMETERS
+# USER CONFIGURATION
 # -------------------------
-AZURE_SUBSCRIPTION="wtw-ai-orch-deploy-dev-svc-connection"
-AZURE_LOCATION="centralus"
+SUBSCRIPTION_ID="608a6efb-6c29-4892-8e7f-2703461e5b06"
 RESOURCE_GROUP="EBTICP-D-NA21-AIOrch-RGRP"
 COSMOS_ACCOUNT_NAME="ebticpdna21aiorchcosmosdb"
-MONGO_DUMP_PATH="./mongo-dump"  # Path where your Mongo dump is located
+MONGO_DUMP_PATH="./mongo-dump"  # Local path to your dump folder
 
 # -------------------------
-# 1️⃣  LOGIN TO AZURE (if not already)
+# 1️⃣  LOGIN & SET CONTEXT
 # -------------------------
 echo "🔐 Logging into Azure..."
 az account show >/dev/null 2>&1 || az login
-az account set --subscription "$AZURE_SUBSCRIPTION"
-echo "✅ Azure subscription set: $AZURE_SUBSCRIPTION"
+az account set --subscription "$SUBSCRIPTION_ID"
+echo "✅ Azure subscription context set to: $SUBSCRIPTION_ID"
 
 # -------------------------
-# 2️⃣  INSTALL MONGODB DATABASE TOOLS (if not installed)
+# 2️⃣  CHECK MONGORESTORE
 # -------------------------
 if ! command -v mongorestore &> /dev/null; then
   echo "⚙️ Installing MongoDB Database Tools..."
@@ -33,9 +32,9 @@ fi
 mongorestore --version
 
 # -------------------------
-# 3️⃣  GET COSMOS DB CONNECTION STRING
+# 3️⃣  GET COSMOS CONNECTION STRING
 # -------------------------
-echo "🔍 Retrieving Cosmos DB connection string..."
+echo "🔍 Fetching Cosmos DB Mongo connection string..."
 COSMOS_CONNECTION_STRING=$(az cosmosdb keys list \
   --name "$COSMOS_ACCOUNT_NAME" \
   --resource-group "$RESOURCE_GROUP" \
@@ -44,7 +43,7 @@ COSMOS_CONNECTION_STRING=$(az cosmosdb keys list \
   -o tsv)
 
 if [[ -z "$COSMOS_CONNECTION_STRING" ]]; then
-  echo "❌ Failed to retrieve Cosmos DB connection string."
+  echo "❌ Failed to retrieve Cosmos DB connection string"
   exit 1
 fi
 
@@ -58,7 +57,7 @@ restore_database() {
   local TO_DB=$2
 
   if [[ "$FROM_DB" == "$TO_DB" ]]; then
-    echo "⬆️ Restoring $FROM_DB..."
+    echo "⬆️ Restoring database: $FROM_DB"
     mongorestore \
       --uri="$COSMOS_CONNECTION_STRING" \
       --nsInclude="${FROM_DB}.*" \
@@ -66,9 +65,8 @@ restore_database() {
       --batchSize=1 \
       --drop \
       "$MONGO_DUMP_PATH"
-    echo "✅ $FROM_DB restored successfully."
   else
-    echo "🔄 Restoring $TO_DB (from $FROM_DB data)..."
+    echo "🔄 Restoring $TO_DB (from $FROM_DB data)"
     mongorestore \
       --uri="$COSMOS_CONNECTION_STRING" \
       --nsFrom="${FROM_DB}.*" \
@@ -77,33 +75,27 @@ restore_database() {
       --batchSize=1 \
       --drop \
       "$MONGO_DUMP_PATH"
-    echo "✅ $TO_DB restored successfully."
   fi
+  echo "✅ $TO_DB restored successfully."
 }
 
-# factory_dev
+# Run restores
 restore_database "factory_dev" "factory_dev"
-
-# agent_studio_dev
 restore_database "agent_studio_dev" "agent_studio_dev"
-
-# factory (from factory_dev)
 restore_database "factory_dev" "factory"
-
-# agent_studio (from agent_studio_dev)
 restore_database "agent_studio_dev" "agent_studio"
 
 # -------------------------
 # 5️⃣  SUMMARY
 # -------------------------
 echo ""
-echo "🎯 All databases restored successfully:"
+echo "🎯 Mongo restore completed successfully!"
+echo "Databases restored:"
 echo "  - factory_dev"
 echo "  - agent_studio_dev"
 echo "  - factory"
 echo "  - agent_studio"
 echo ""
-echo "⚠️ Note: If you encounter 'Error 16500' (rate limiting),"
+echo "⚠️ If you see 'Error 16500 (rate limiting)',"
 echo "increase Cosmos DB throughput and rerun the script."
 
-B
