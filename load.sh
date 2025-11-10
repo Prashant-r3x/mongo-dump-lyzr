@@ -2,23 +2,14 @@
 set -euo pipefail
 
 # -------------------------
-# USER CONFIGURATION
+# CONFIGURATION
 # -------------------------
-SUBSCRIPTION_ID="608a6efb-6c29-4892-8e7f-2703461e5b06"
-RESOURCE_GROUP="EBTICP-D-NA21-AIOrch-RGRP"
-COSMOS_ACCOUNT_NAME="ebticpdna21aiorchcosmosdb"
-MONGO_DUMP_PATH="./mongo-dump"  # Local path to your dump folder
+COSMOS_CONNECTION_STRING="mongodb://ebticpdna21aiorchcosmosdb:NzIua1pPr4C6L8ItLwI4falLsn4cVrgg4bp3HR6MF3rWsdrpsb4Ml1wejAekpKlbLKcX5AnZn3XnACDbTqZc0w==@ebticpdna21aiorchcosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ebticpdna21aiorchcosmosdb@"
+
+MONGO_DUMP_PATH="./mongo-dump"
 
 # -------------------------
-# 1️⃣  LOGIN & SET CONTEXT
-# -------------------------
-echo "🔐 Logging into Azure..."
-az account show >/dev/null 2>&1 || az login
-az account set --subscription "$SUBSCRIPTION_ID"
-echo "✅ Azure subscription context set to: $SUBSCRIPTION_ID"
-
-# -------------------------
-# 2️⃣  CHECK MONGORESTORE
+# 1️⃣ CHECK MONGORESTORE
 # -------------------------
 if ! command -v mongorestore &> /dev/null; then
   echo "⚙️ Installing MongoDB Database Tools..."
@@ -32,25 +23,7 @@ fi
 mongorestore --version
 
 # -------------------------
-# 3️⃣  GET COSMOS CONNECTION STRING
-# -------------------------
-echo "🔍 Fetching Cosmos DB Mongo connection string..."
-COSMOS_CONNECTION_STRING=$(az cosmosdb keys list \
-  --name "$COSMOS_ACCOUNT_NAME" \
-  --resource-group "$RESOURCE_GROUP" \
-  --type connection-strings \
-  --query "connectionStrings[0].connectionString" \
-  -o tsv)
-
-if [[ -z "$COSMOS_CONNECTION_STRING" ]]; then
-  echo "❌ Failed to retrieve Cosmos DB connection string"
-  exit 1
-fi
-
-echo "✅ Connection string retrieved."
-
-# -------------------------
-# 4️⃣  RESTORE DATABASES
+# 2️⃣ RESTORE DATABASES
 # -------------------------
 restore_database() {
   local FROM_DB=$1
@@ -85,17 +58,6 @@ restore_database "agent_studio_dev" "agent_studio_dev"
 restore_database "factory_dev" "factory"
 restore_database "agent_studio_dev" "agent_studio"
 
-# -------------------------
-# 5️⃣  SUMMARY
-# -------------------------
 echo ""
-echo "🎯 Mongo restore completed successfully!"
-echo "Databases restored:"
-echo "  - factory_dev"
-echo "  - agent_studio_dev"
-echo "  - factory"
-echo "  - agent_studio"
-echo ""
-echo "⚠️ If you see 'Error 16500 (rate limiting)',"
-echo "increase Cosmos DB throughput and rerun the script."
+echo "🎯 All databases restored successfully."
 
