@@ -7,8 +7,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from datetime import datetime
 
 # MongoDB connection string from .env
-MONGO_URL = "mongodb://lyzrfactorycosmospub:9nZlHTB1cZnOTT7jtWGwoGjc4brnW9mYL1boQ9Zukdgf0aAiMBJk7CHdXVfSSboYidMuH00CmiKsACDbZ0Mn4g==@lyzrfactorycosmospub.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@lyzrfactorycosmospub@"
-
+MONGO_URL = "mongodb://ebticpdna21aiorchcosmosdb:NzIua1pPr4C6L8ItLwI4falLsn4cVrgg4bp3HR6MF3rWsdrpsb4Ml1wejAekpKlbLKcX5AnZn3XnACDbTqZc0w==@ebticpdna21aiorchcosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ebticpdna21aiorchcosmosdb@"
 
 async def add_wtw_provider():
     """Add WTW provider to MongoDB"""
