@@ -1,0 +1,470 @@
+[
+  {
+    "_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "parent_organization_id": null,
+    "admin_user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "name": "WTW",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "7b0e10fe-ebb3-41b1-a241-505e7fcf7062",
+      "1925b458-f61b-4607-a13a-4d0d8a32f32c",
+      "52427a23-9ef3-45ba-bd9b-8de4f03a86d7",
+      "01f2cbc0-0eac-4506-a3a0-b16da90e1a53",
+      "4c24c6ed-55d7-48dd-9221-406a92a99e82",
+      "0b286e51-bb57-43d6-8112-25780b56ef62",
+      "e0f52e66-e501-467c-869c-afb75892e490",
+      "9357cbe1-b9df-4e5c-a645-896ac9feeeff",
+      "990a3893-e77f-40c8-9e53-0850a2241ebd",
+      "a997f816-6faa-4f3c-bcfc-071f4e8b3248",
+      "91080730-3559-4858-811f-0d010f11a27c",
+      "79e47f2d-ae27-4ac6-8b2c-6474ca4d7c32",
+      "520efbd8-b145-4336-978e-661ea38e8d35",
+      "3c8cbf81-15b4-4fc2-9423-e4695d84ebd9",
+      "e1f2ef6b-6de7-4a30-9928-3317d1085cf7",
+      "c05a58da-f2fe-4063-a144-126f8a291c98",
+      "99e8a4e0-8115-4297-9ec5-06ef19b51e21",
+      "e8cf1ac1-a2d8-43a2-a314-eec2aa73d811",
+      "7cf5a241-f2d1-4165-8dee-dc49ecd8dbc3",
+      "86e1edb5-bda3-420e-af10-2185de2bf6e5",
+      "aab4ee3d-c9c3-4969-a024-d144e6ed326f",
+      "fd1c04e7-7704-46a4-98ae-8d2219ca6506",
+      "9c833f92-aec1-43fd-9627-78f0e579286f",
+      "5cf90939-fe95-4309-9009-7815a415a4a2",
+      "f16ecb9e-693f-4a1a-81cf-d5c3d9186769",
+      "2cd1e281-7caf-401c-8ea7-c196df8f366d",
+      "b89d9076-7a9e-4b66-a025-85cc197743e9",
+      "c52b5e98-fa81-4128-9184-fd8e9dc854b6",
+      "4c50c385-82e7-45a8-b4a1-f2d806627ee3",
+      "27cce81d-cd67-47e3-9158-386883031327",
+      "9b86c1f6-4f30-4b8b-89bd-aa2a0dccd6b4",
+      "0073cd70-59c7-491a-9724-90ab2b15a9fc",
+      "2fd6f7ea-82c0-412e-a2d4-653132350fb3",
+      "852a75ba-2942-4e1a-9d9a-12e0d2d316b5",
+      "45c7ae05-143b-429b-b2a6-05bbd5a44ebb",
+      "252fcabe-c9b0-460e-bd8c-278906775ee9",
+      "4d5f770c-336f-418f-b6f9-27779f7917fe",
+      "b6ea9a15-376c-471a-94dd-4b53a6842354",
+      "ce20efd4-1d32-45e0-ba7c-b098569f7aa8",
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "ff6cd028-90f2-4b0a-8203-5ee16f2972c0",
+      "5a7caf79-6381-4c8a-8c83-7d2117f7d02a",
+      "52e90f9a-2dba-4103-aea1-3211c8a80242",
+      "d8351de1-d021-4263-a53b-8290fdaf76f6",
+      "685db67b-2849-4a1b-bdf0-9ede1fa955db",
+      "7a42006d-a5db-48e4-aa90-d7b77cc67043",
+      "39bc3a1f-2628-4474-802f-1ab264827491",
+      "7b2cbd0a-ec6d-4584-88d3-6e68c1e8dfd1",
+      "3b4933a5-c8b1-493c-81d2-76c7ab936fbd",
+      "5ff40369-0e80-4511-90bb-200258acbdca",
+      "8fa3984b-1bf9-4369-8049-017902ec7be8",
+      "806e60c5-9973-4fab-b55a-b7cfeb125a37",
+      "ea7e974c-a93d-44e3-89b7-db5a47eb7ec3",
+      "7b8ae07c-bd3b-41e0-bfbe-b623d91942e1",
+      "ec4fb6cf-d1cf-4082-9882-4a2511c7344f",
+      "1a61e614-512b-4f5e-b09f-a0d6a674a29f",
+      "a9812823-337e-41d2-a86d-ee35f1f65a6f",
+      "a59adb06-8d6b-4221-9e8e-e6660edcd3f7",
+      "38ab0776-5367-4abd-9581-11a21a2adda6",
+      "496d80c2-b9f2-423f-8c94-fc835d3717bd",
+      "b7355750-5665-4354-aca9-fcd02089972b",
+      "7c624ac0-424a-4355-9843-34b6b145c7f8"
+    ],
+    "usage_id": "6927ef08522c5afc19941c7d",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "WTW's Org",
+    "sub_organizations": [
+      {
+        "name": "1de242e1-1e20-49e9-959f-96615598855a",
+        "display_name": "CORP-AICore",
+        "organization_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a"
+      },
+      {
+        "name": "caa3bd79-0a18-4021-916e-098e382c7bef",
+        "display_name": "CORP-B2C",
+        "organization_id": "e207f687-0485-4450-ac3b-ae2ec938fe61"
+      },
+      {
+        "name": "4079068a-4e35-4ad0-864b-d198fd06cd49",
+        "display_name": "CORP-ICS",
+        "organization_id": "8fe1776d-7fb9-40f9-9581-88d4d9956a3f"
+      },
+      {
+        "name": "21320e37-78d4-4d89-97c1-17a4f0dd7a0b",
+        "display_name": "CORP-MCI",
+        "organization_id": "72424769-44ed-4287-aea3-691cd43b37bc"
+      },
+      {
+        "name": "be6fd42d-dd0f-4608-ba4b-3ee5086a6925",
+        "display_name": "CRB",
+        "organization_id": "43a73fe0-b745-43e3-960a-2ced36527e2a"
+      },
+      {
+        "name": "8047f9a4-ca9e-40e0-8fa5-27b68f967ca0",
+        "display_name": "HWC-BO",
+        "organization_id": "dd8df0d1-5258-4964-9b75-97544f452724"
+      },
+      {
+        "name": "68930050-47c1-4b7e-ad0d-f0869fa36f2d",
+        "display_name": "HWC-HWT-HB",
+        "organization_id": "4cf3f465-36b3-4772-a119-eaa52c074511"
+      },
+      {
+        "name": "7b1207bf-6264-40ac-a485-f5824cc52a55",
+        "display_name": "HWC-HWT-RET",
+        "organization_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb"
+      },
+      {
+        "name": "0fde1f16-dff1-4163-b229-5827417f39ed",
+        "display_name": "HWC-W&R",
+        "organization_id": "edfac184-796b-4973-9bce-a37bd1950bf2"
+      },
+      {
+        "name": "d92fb376-8a2b-449b-9efa-0b0f24c17c34",
+        "display_name": "HWT-INV",
+        "organization_id": "8e3913f0-f583-4c48-b00a-a255038b7a25"
+      }
+    ],
+    "vpas_enabled": true,
+    "group_mappings": [
+      {
+        "guid": "213cce55-d4f2-4b7f-a27d-217992f6730a",
+        "sub_org_name": "1de242e1-1e20-49e9-959f-96615598855a",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "1de242e1-1e20-49e9-959f-96615598855a",
+        "sub_org_name": "1de242e1-1e20-49e9-959f-96615598855a",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "42cb19e5-66d2-42a5-874d-481ac7737634",
+        "sub_org_name": "caa3bd79-0a18-4021-916e-098e382c7bef",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "caa3bd79-0a18-4021-916e-098e382c7bef",
+        "sub_org_name": "caa3bd79-0a18-4021-916e-098e382c7bef",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "718a7565-7f83-4b96-95af-d8ceff3e50fc",
+        "sub_org_name": "4079068a-4e35-4ad0-864b-d198fd06cd49",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "4079068a-4e35-4ad0-864b-d198fd06cd49",
+        "sub_org_name": "4079068a-4e35-4ad0-864b-d198fd06cd49",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "fc1e8744-4ea0-48bb-9357-01165bbb0ccc",
+        "sub_org_name": "21320e37-78d4-4d89-97c1-17a4f0dd7a0b",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "21320e37-78d4-4d89-97c1-17a4f0dd7a0b",
+        "sub_org_name": "21320e37-78d4-4d89-97c1-17a4f0dd7a0b",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "c353fd8c-0044-4fcb-b06a-886df770d962",
+        "sub_org_name": "be6fd42d-dd0f-4608-ba4b-3ee5086a6925",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "be6fd42d-dd0f-4608-ba4b-3ee5086a6925",
+        "sub_org_name": "be6fd42d-dd0f-4608-ba4b-3ee5086a6925",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "52918412-de2c-46fb-be9f-48e677d3dbb6",
+        "sub_org_name": "8047f9a4-ca9e-40e0-8fa5-27b68f967ca0",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "8047f9a4-ca9e-40e0-8fa5-27b68f967ca0",
+        "sub_org_name": "8047f9a4-ca9e-40e0-8fa5-27b68f967ca0",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "8a577345-0eae-469c-b6f4-7ed23a58c433",
+        "sub_org_name": "68930050-47c1-4b7e-ad0d-f0869fa36f2d",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "68930050-47c1-4b7e-ad0d-f0869fa36f2d",
+        "sub_org_name": "68930050-47c1-4b7e-ad0d-f0869fa36f2d",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "4c3a4378-4bbd-43e9-99ee-a252921f5e5d",
+        "sub_org_name": "7b1207bf-6264-40ac-a485-f5824cc52a55",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "7b1207bf-6264-40ac-a485-f5824cc52a55",
+        "sub_org_name": "7b1207bf-6264-40ac-a485-f5824cc52a55",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "459be169-3bbd-4afe-973d-0927d94d372f",
+        "sub_org_name": "0fde1f16-dff1-4163-b229-5827417f39ed",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "0fde1f16-dff1-4163-b229-5827417f39ed",
+        "sub_org_name": "0fde1f16-dff1-4163-b229-5827417f39ed",
+        "role": "member",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "46e49e06-27b8-4e80-a7f5-8274c0729bc9",
+        "sub_org_name": "d92fb376-8a2b-449b-9efa-0b0f24c17c34",
+        "role": "admin",
+        "mapping_type": "sub_org"
+      },
+      {
+        "guid": "d92fb376-8a2b-449b-9efa-0b0f24c17c34",
+        "sub_org_name": "d92fb376-8a2b-449b-9efa-0b0f24c17c34",
+        "role": "member",
+        "mapping_type": "sub_org"
+      }
+    ]
+  },
+  {
+    "_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "name": "1de242e1-1e20-49e9-959f-96615598855a",
+    "display_name": "CORP-AICore",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "4c50c385-82e7-45a8-b4a1-f2d806627ee3",
+      "99e8a4e0-8115-4297-9ec5-06ef19b51e21",
+      "b6ea9a15-376c-471a-94dd-4b53a6842354",
+      "3c8cbf81-15b4-4fc2-9423-e4695d84ebd9",
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "ec4fb6cf-d1cf-4082-9882-4a2511c7344f"
+    ],
+    "usage_id": "b7e76791920e44248ef5c9ed",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "CORP-AICore's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "e207f687-0485-4450-ac3b-ae2ec938fe61",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_e207f687-0485-4450-ac3b-ae2ec938fe61",
+    "name": "caa3bd79-0a18-4021-916e-098e382c7bef",
+    "display_name": "CORP-B2C",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "5ff40369-0e80-4511-90bb-200258acbdca",
+      "b89d9076-7a9e-4b66-a025-85cc197743e9"
+    ],
+    "usage_id": "323ec46a9b404dbeab2b8b56",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "CORP-B2C's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "8fe1776d-7fb9-40f9-9581-88d4d9956a3f",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_8fe1776d-7fb9-40f9-9581-88d4d9956a3f",
+    "name": "4079068a-4e35-4ad0-864b-d198fd06cd49",
+    "display_name": "CORP-ICS",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "45c7ae05-143b-429b-b2a6-05bbd5a44ebb",
+      "685db67b-2849-4a1b-bdf0-9ede1fa955db"
+    ],
+    "usage_id": "19caa42627384997a9c2c7be",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "CORP-ICS's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "72424769-44ed-4287-aea3-691cd43b37bc",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_72424769-44ed-4287-aea3-691cd43b37bc",
+    "name": "21320e37-78d4-4d89-97c1-17a4f0dd7a0b",
+    "display_name": "CORP-MCI",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "e8cf1ac1-a2d8-43a2-a314-eec2aa73d811",
+      "ff6cd028-90f2-4b0a-8203-5ee16f2972c0"
+    ],
+    "usage_id": "8e864821f22d4015a67782d3",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "CORP-MCI's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "43a73fe0-b745-43e3-960a-2ced36527e2a",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_43a73fe0-b745-43e3-960a-2ced36527e2a",
+    "name": "be6fd42d-dd0f-4608-ba4b-3ee5086a6925",
+    "display_name": "CRB",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "7b2cbd0a-ec6d-4584-88d3-6e68c1e8dfd1"
+    ],
+    "usage_id": "ab19d97167b745119a5fc87f",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "CRB's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "dd8df0d1-5258-4964-9b75-97544f452724",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_dd8df0d1-5258-4964-9b75-97544f452724",
+    "name": "8047f9a4-ca9e-40e0-8fa5-27b68f967ca0",
+    "display_name": "HWC-BO",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "d8351de1-d021-4263-a53b-8290fdaf76f6",
+      "f16ecb9e-693f-4a1a-81cf-d5c3d9186769"
+    ],
+    "usage_id": "a1a86e41d2364c7abf815bae",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "HWC-BO's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_4cf3f465-36b3-4772-a119-eaa52c074511",
+    "name": "68930050-47c1-4b7e-ad0d-f0869fa36f2d",
+    "display_name": "HWC-HWT-HB",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "a997f816-6faa-4f3c-bcfc-071f4e8b3248",
+      "52427a23-9ef3-45ba-bd9b-8de4f03a86d7",
+      "79e47f2d-ae27-4ac6-8b2c-6474ca4d7c32",
+      "27cce81d-cd67-47e3-9158-386883031327",
+      "b7355750-5665-4354-aca9-fcd02089972b",
+      "7a42006d-a5db-48e4-aa90-d7b77cc67043",
+      "5a7caf79-6381-4c8a-8c83-7d2117f7d02a",
+      "7b8ae07c-bd3b-41e0-bfbe-b623d91942e1"
+    ],
+    "usage_id": "af0023a9b34843dd9bdd02bf",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "HWC-HWT-HB's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "name": "7b1207bf-6264-40ac-a485-f5824cc52a55",
+    "display_name": "HWC-HWT-RET",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "4d5f770c-336f-418f-b6f9-27779f7917fe",
+      "aab4ee3d-c9c3-4969-a024-d144e6ed326f",
+      "852a75ba-2942-4e1a-9d9a-12e0d2d316b5",
+      "7c624ac0-424a-4355-9843-34b6b145c7f8",
+      "496d80c2-b9f2-423f-8c94-fc835d3717bd",
+      "252fcabe-c9b0-460e-bd8c-278906775ee9",
+      "990a3893-e77f-40c8-9e53-0850a2241ebd",
+      "c52b5e98-fa81-4128-9184-fd8e9dc854b6",
+      "7cf5a241-f2d1-4165-8dee-dc49ecd8dbc3",
+      "806e60c5-9973-4fab-b55a-b7cfeb125a37",
+      "c05a58da-f2fe-4063-a144-126f8a291c98"
+    ],
+    "usage_id": "a51f99e2d2ac4c03b92b90e1",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "HWC-HWT-RET's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "edfac184-796b-4973-9bce-a37bd1950bf2",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_edfac184-796b-4973-9bce-a37bd1950bf2",
+    "name": "0fde1f16-dff1-4163-b229-5827417f39ed",
+    "display_name": "HWC-W&R",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "91080730-3559-4858-811f-0d010f11a27c",
+      "7b0e10fe-ebb3-41b1-a241-505e7fcf7062",
+      "a9812823-337e-41d2-a86d-ee35f1f65a6f",
+      "e1f2ef6b-6de7-4a30-9928-3317d1085cf7"
+    ],
+    "usage_id": "5f9ccd35baf843c2bad2214b",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "HWC-W&R's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  },
+  {
+    "_id": "8e3913f0-f583-4c48-b00a-a255038b7a25",
+    "parent_organization_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "admin_user_id": "sub_org_8e3913f0-f583-4c48-b00a-a255038b7a25",
+    "name": "d92fb376-8a2b-449b-9efa-0b0f24c17c34",
+    "display_name": "HWT-INV",
+    "domain": "wtwco.com",
+    "user_ids": [
+      "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+      "ea7e974c-a93d-44e3-89b7-db5a47eb7ec3"
+    ],
+    "usage_id": "0c2bda76cb9d467987291967",
+    "usage_history": [],
+    "industry": "Tech",
+    "about_organization": "HWT-INV's Sub-Org",
+    "sub_organizations": [],
+    "group_mappings": [],
+    "vpas_enabled": false
+  }
+]

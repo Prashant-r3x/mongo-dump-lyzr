@@ -1,0 +1,4514 @@
+[
+  {
+    "_id": "6927ef08522c5afc19941c7e",
+    "id": "213861e7-61d8-4358-819d-77198d61d110",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2025-11-27 06:26:16.443187",
+    "updated_at": "2025-11-27 06:26:16.443203"
+  },
+  {
+    "_id": "6927f23b8cfc58266385384d",
+    "id": "a17dee03-beda-4f8b-9f0b-3928ea710fb9",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2025-12-08 09:46:13.227770",
+        "type": "agent",
+        "resource_id": "692d41412cf04a2b2736a7a7",
+        "owner_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2025-12-08 09:47:04.985716",
+        "type": "agent",
+        "resource_id": "693174eedf13a01c249a94f5",
+        "owner_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2026-02-20 16:56:55.469779",
+        "type": "agent",
+        "resource_id": "692806112cf04a2b2736a79a",
+        "owner_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2026-02-25 14:24:22.839215",
+        "type": "agent",
+        "resource_id": "69970db6aefd79931672b088",
+        "owner_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2026-02-25 14:32:48.818752",
+        "type": "agent",
+        "resource_id": "699716a3940475dbd85d9e54",
+        "owner_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2026-02-26 07:11:41.692153",
+        "type": "agent",
+        "resource_id": "699c4c0be6a7eaf9926dc606",
+        "owner_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2026-02-26 12:40:29.057225",
+        "type": "agent",
+        "resource_id": "699eab33a426cf5e6f92eb5f",
+        "owner_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      }
+    ],
+    "user_id": "5ff40369-0e80-4511-90bb-200258acbdca",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-11-27 06:39:55.798515",
+    "updated_at": "2025-11-27 06:39:55.798524"
+  },
+  {
+    "_id": "6927f5a08cfc58266385384f",
+    "id": "4177b126-57e4-4943-8cbe-c9133b289855",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2025-12-02 07:59:04.804002",
+        "type": "agent",
+        "resource_id": "692e8e942cf04a2b2736a7f2",
+        "owner_id": "5ff40369-0e80-4511-90bb-200258acbdca",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      },
+      {
+        "id": "resource",
+        "name": "agent",
+        "created_at": "2025-12-03 10:44:15.295790",
+        "type": "agent",
+        "resource_id": "692ffac82cf04a2b2736a851",
+        "owner_id": "5ff40369-0e80-4511-90bb-200258acbdca",
+        "disabled": false,
+        "modes": [
+          "read"
+        ]
+      }
+    ],
+    "user_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-11-27 06:54:24.415957",
+    "updated_at": "2025-11-27 06:54:24.415965"
+  },
+  {
+    "_id": "6927f5a08cfc582663853850",
+    "id": "b5afaf0c-ac4c-4340-95e3-fb38c93e5700",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-11-27 06:54:24.425830",
+    "updated_at": "2025-11-27 06:54:24.425836"
+  },
+  {
+    "_id": "6928758e8cfc582663853852",
+    "id": "9bd372da-c2be-453b-a9d2-faec0cd6fd7f",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "3c8cbf81-15b4-4fc2-9423-e4695d84ebd9",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-11-27 16:00:14.597778",
+    "updated_at": "2025-11-27 16:00:14.597787"
+  },
+  {
+    "_id": "6928758e8cfc582663853853",
+    "id": "63b80528-7e7c-4480-a894-08f98507250e",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "3c8cbf81-15b4-4fc2-9423-e4695d84ebd9",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-11-27 16:00:14.599579",
+    "updated_at": "2025-11-27 16:00:14.599585"
+  },
+  {
+    "_id": "694040303e307be423ea1b39",
+    "id": "1261fc91-0960-4459-983a-fc05a081aada",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "99e8a4e0-8115-4297-9ec5-06ef19b51e21",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-15 17:06:56.361152",
+    "updated_at": "2025-12-15 17:06:56.361159"
+  },
+  {
+    "_id": "694040303e307be423ea1b3a",
+    "id": "9b02b742-da9a-41ff-9fdb-af844637cdc7",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "99e8a4e0-8115-4297-9ec5-06ef19b51e21",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-15 17:06:56.531226",
+    "updated_at": "2025-12-15 17:06:56.531235"
+  },
+  {
+    "_id": "69408e203e307be423ea1b3b",
+    "id": "52a64096-a882-477e-aa9c-451bc03fc547",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "4c50c385-82e7-45a8-b4a1-f2d806627ee3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-15 22:39:28.444581",
+    "updated_at": "2025-12-15 22:39:28.444588"
+  },
+  {
+    "_id": "69408e203e307be423ea1b3c",
+    "id": "c6c32851-b686-4d6d-994a-4e93633b7c57",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "4c50c385-82e7-45a8-b4a1-f2d806627ee3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-15 22:39:28.592926",
+    "updated_at": "2025-12-15 22:39:28.592937"
+  },
+  {
+    "_id": "6941cc02262c91eedccc5ab8",
+    "id": "fc245ca2-acee-44c4-a063-6e28ad34adbe",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "ec4fb6cf-d1cf-4082-9882-4a2511c7344f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-16 21:15:46.385315",
+    "updated_at": "2025-12-16 21:15:46.385323"
+  },
+  {
+    "_id": "6941cc02262c91eedccc5ab9",
+    "id": "1f0eb8ab-ca47-4072-9ccc-c7ce6714c2ba",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "ec4fb6cf-d1cf-4082-9882-4a2511c7344f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-16 21:15:46.541776",
+    "updated_at": "2025-12-16 21:15:46.541783"
+  },
+  {
+    "_id": "694268e579c7732d13d942e1",
+    "id": "02b1512b-ef51-43f2-8674-4e019a639360",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "aab4ee3d-c9c3-4969-a024-d144e6ed326f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-17 08:25:09.040769",
+    "updated_at": "2025-12-17 08:25:09.040777"
+  },
+  {
+    "_id": "694268e579c7732d13d942e2",
+    "id": "5c2c7c46-cd05-4d87-bab5-c88939bb3519",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "aab4ee3d-c9c3-4969-a024-d144e6ed326f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-17 08:25:09.112127",
+    "updated_at": "2025-12-17 08:25:09.112134"
+  },
+  {
+    "_id": "6942787779c7732d13d942e3",
+    "id": "84689274-479c-4e6f-9b24-0dd608e204a3",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "c52b5e98-fa81-4128-9184-fd8e9dc854b6",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-17 09:31:35.939638",
+    "updated_at": "2025-12-17 09:31:35.939645"
+  },
+  {
+    "_id": "6942787879c7732d13d942e4",
+    "id": "590a1a20-3800-4888-abae-f6709bd60468",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "c52b5e98-fa81-4128-9184-fd8e9dc854b6",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-17 09:31:36.177787",
+    "updated_at": "2025-12-17 09:31:36.177793"
+  },
+  {
+    "_id": "6942f9c479c7732d13d942e5",
+    "id": "b9cdcab4-36b4-4b44-ae13-2229c66a248b",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7b2cbd0a-ec6d-4584-88d3-6e68c1e8dfd1",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-17 18:43:16.155114",
+    "updated_at": "2025-12-17 18:43:16.155121"
+  },
+  {
+    "_id": "6942f9c479c7732d13d942e6",
+    "id": "7fa08ade-88ed-41c2-8130-879abf443286",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7b2cbd0a-ec6d-4584-88d3-6e68c1e8dfd1",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-17 18:43:16.331574",
+    "updated_at": "2025-12-17 18:43:16.331581"
+  },
+  {
+    "_id": "69458bd6f92003fd8689632d",
+    "id": "7c627723-7333-477a-adda-1930f6391deb",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "ea7e974c-a93d-44e3-89b7-db5a47eb7ec3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-19 17:31:02.256396",
+    "updated_at": "2025-12-19 17:31:02.256404"
+  },
+  {
+    "_id": "69458bd6f92003fd8689632e",
+    "id": "2d6533cb-5fe0-4673-a7bd-86ca1e1cbb6d",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "ea7e974c-a93d-44e3-89b7-db5a47eb7ec3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-19 17:31:02.261029",
+    "updated_at": "2025-12-19 17:31:02.261035"
+  },
+  {
+    "_id": "69459b85f92003fd86896330",
+    "id": "769eb8e8-2496-45b4-bcb3-2b8db76fd365",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "806e60c5-9973-4fab-b55a-b7cfeb125a37",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-19 18:37:57.551692",
+    "updated_at": "2025-12-19 18:37:57.551700"
+  },
+  {
+    "_id": "69459b85f92003fd86896331",
+    "id": "66b9dfe8-6bb4-41f0-95f4-3249ca84cfb0",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "806e60c5-9973-4fab-b55a-b7cfeb125a37",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-19 18:37:57.713496",
+    "updated_at": "2025-12-19 18:37:57.713501"
+  },
+  {
+    "_id": "6945ad29f92003fd86896333",
+    "id": "fed1fe20-2765-497d-b181-920c148823bb",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7b8ae07c-bd3b-41e0-bfbe-b623d91942e1",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-19 19:53:13.569949",
+    "updated_at": "2025-12-19 19:53:13.569955"
+  },
+  {
+    "_id": "6945ad2af92003fd86896334",
+    "id": "edf97871-fdd8-4799-9800-ee8c3968e3b1",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7b8ae07c-bd3b-41e0-bfbe-b623d91942e1",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2025-12-19 19:53:14.484039",
+    "updated_at": "2025-12-19 19:53:14.484045"
+  },
+  {
+    "_id": "695c58d2f92003fd86896336",
+    "id": "c6bfff11-0b0c-49cc-a7bf-aa88edbd5ac4",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7b0e10fe-ebb3-41b1-a241-505e7fcf7062",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 00:35:30.307626",
+    "updated_at": "2026-01-06 00:35:30.307632"
+  },
+  {
+    "_id": "695c58d3f92003fd86896337",
+    "id": "8cf3b205-edeb-42d8-b11e-ef538e1e095a",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7b0e10fe-ebb3-41b1-a241-505e7fcf7062",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 00:35:31.066464",
+    "updated_at": "2026-01-06 00:35:31.066472"
+  },
+  {
+    "_id": "695c6adaf92003fd86896339",
+    "id": "6d08b059-e979-4031-bfa8-e56ad9215282",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7a42006d-a5db-48e4-aa90-d7b77cc67043",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 01:52:26.339805",
+    "updated_at": "2026-01-06 01:52:26.339811"
+  },
+  {
+    "_id": "695c6adaf92003fd8689633a",
+    "id": "6d9f02cc-bf80-4af2-8d09-fed837e4f5eb",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7a42006d-a5db-48e4-aa90-d7b77cc67043",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 01:52:26.347853",
+    "updated_at": "2026-01-06 01:52:26.347859"
+  },
+  {
+    "_id": "695c85b6f92003fd8689633c",
+    "id": "c8eeb94b-7339-44ea-a110-90c0439097c9",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "27cce81d-cd67-47e3-9158-386883031327",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 03:47:02.392424",
+    "updated_at": "2026-01-06 03:47:02.392430"
+  },
+  {
+    "_id": "695c85b6f92003fd8689633d",
+    "id": "bc2e33d2-19dc-4c56-a9f1-184c59d8e3aa",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "27cce81d-cd67-47e3-9158-386883031327",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 03:47:02.571441",
+    "updated_at": "2026-01-06 03:47:02.571446"
+  },
+  {
+    "_id": "695d351bf92003fd8689633f",
+    "id": "04858fba-9ab6-4616-b18e-0f95ebb3d6af",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7c624ac0-424a-4355-9843-34b6b145c7f8",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 16:15:23.181823",
+    "updated_at": "2026-01-06 16:15:23.181829"
+  },
+  {
+    "_id": "695d351bf92003fd86896340",
+    "id": "84ee2fee-93df-45a6-abea-a6c5d89ac7f8",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7c624ac0-424a-4355-9843-34b6b145c7f8",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 16:15:23.200033",
+    "updated_at": "2026-01-06 16:15:23.200039"
+  },
+  {
+    "_id": "695d3536f92003fd86896341",
+    "id": "bce603ae-6f69-4a9a-aae6-84c42bfc5153",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "852a75ba-2942-4e1a-9d9a-12e0d2d316b5",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 16:15:50.059153",
+    "updated_at": "2026-01-06 16:15:50.059160"
+  },
+  {
+    "_id": "695d3536f92003fd86896342",
+    "id": "38702f5e-d4e3-4afa-9762-3e115458b500",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "852a75ba-2942-4e1a-9d9a-12e0d2d316b5",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-06 16:15:50.309049",
+    "updated_at": "2026-01-06 16:15:50.309055"
+  },
+  {
+    "_id": "695f38b2f92003fd86896345",
+    "id": "fc7f0714-2f80-43d5-9f09-1359f9427010",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "4d5f770c-336f-418f-b6f9-27779f7917fe",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-08 04:55:14.745442",
+    "updated_at": "2026-01-08 04:55:14.745448"
+  },
+  {
+    "_id": "695f661df92003fd86896347",
+    "id": "7b44c283-0680-4b50-b518-82264282f2c3",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "990a3893-e77f-40c8-9e53-0850a2241ebd",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-08 08:09:01.156805",
+    "updated_at": "2026-01-08 08:09:01.156813"
+  },
+  {
+    "_id": "69601180f92003fd8689634c",
+    "id": "86ab8a00-de13-444e-996e-d93cc34e2be0",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "b7355750-5665-4354-aca9-fcd02089972b",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-08 20:20:16.035148",
+    "updated_at": "2026-01-08 20:20:16.035154"
+  },
+  {
+    "_id": "69601180f92003fd8689634b",
+    "id": "0fe398d1-b927-41e5-b5ff-9796efd3ee93",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "b7355750-5665-4354-aca9-fcd02089972b",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-08 20:20:16.028430",
+    "updated_at": "2026-01-08 20:20:16.028437"
+  },
+  {
+    "_id": "6961199cf92003fd8689634e",
+    "id": "e169de05-9fdf-4b64-9541-ce119539e2bb",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "685db67b-2849-4a1b-bdf0-9ede1fa955db",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-09 15:07:08.603034",
+    "updated_at": "2026-01-09 15:07:08.603041"
+  },
+  {
+    "_id": "6961199cf92003fd8689634f",
+    "id": "238ae75a-3523-4618-9312-73c5eef9ef5e",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "685db67b-2849-4a1b-bdf0-9ede1fa955db",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-09 15:07:08.627260",
+    "updated_at": "2026-01-09 15:07:08.627266"
+  },
+  {
+    "_id": "69611af5f92003fd86896351",
+    "id": "db64747f-1077-4bc1-a253-6514d6f0c0cb",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "45c7ae05-143b-429b-b2a6-05bbd5a44ebb",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-09 15:12:53.976165",
+    "updated_at": "2026-01-09 15:12:53.976170"
+  },
+  {
+    "_id": "69611af5f92003fd86896350",
+    "id": "9a29d9bb-0620-4f2d-a636-37794020396f",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "45c7ae05-143b-429b-b2a6-05bbd5a44ebb",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-09 15:12:53.967674",
+    "updated_at": "2026-01-09 15:12:53.967680"
+  },
+  {
+    "_id": "69690314f92003fd86896354",
+    "id": "60897965-3f9b-4ac9-ae1c-d60d244b1548",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7cf5a241-f2d1-4165-8dee-dc49ecd8dbc3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:09:08.743761",
+    "updated_at": "2026-01-15 15:09:08.743806"
+  },
+  {
+    "_id": "69690314f92003fd86896355",
+    "id": "a73f43c2-ae7e-472f-9cb1-4e4a7a0013e0",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "7cf5a241-f2d1-4165-8dee-dc49ecd8dbc3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:09:08.749460",
+    "updated_at": "2026-01-15 15:09:08.749466"
+  },
+  {
+    "_id": "696908fff92003fd86896357",
+    "id": "f86316bc-78bd-470d-a43e-45181d92fbf0",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "a997f816-6faa-4f3c-bcfc-071f4e8b3248",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:23.840590",
+    "updated_at": "2026-01-15 15:34:23.840596"
+  },
+  {
+    "_id": "69690900f92003fd86896358",
+    "id": "6abe5fcf-f4c9-41ba-a9d3-cd82d969971c",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "a997f816-6faa-4f3c-bcfc-071f4e8b3248",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:24.091958",
+    "updated_at": "2026-01-15 15:34:24.091966"
+  },
+  {
+    "_id": "69690907f92003fd86896359",
+    "id": "0f2c71c4-45b7-4633-ac3e-1220233de0ad",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "79e47f2d-ae27-4ac6-8b2c-6474ca4d7c32",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:31.564299",
+    "updated_at": "2026-01-15 15:34:31.564305"
+  },
+  {
+    "_id": "69690908f92003fd8689635a",
+    "id": "cff29c3f-1698-47d8-a284-aa32a6501c26",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "79e47f2d-ae27-4ac6-8b2c-6474ca4d7c32",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:32.156231",
+    "updated_at": "2026-01-15 15:34:32.156238"
+  },
+  {
+    "_id": "6969090ef92003fd8689635b",
+    "id": "37911a71-11f2-441f-bcac-32515e97e6a3",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "52427a23-9ef3-45ba-bd9b-8de4f03a86d7",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:38.348569",
+    "updated_at": "2026-01-15 15:34:38.348575"
+  },
+  {
+    "_id": "6969090ef92003fd8689635c",
+    "id": "55687d5e-628e-41e3-a39a-462120096e2b",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "52427a23-9ef3-45ba-bd9b-8de4f03a86d7",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:38.350018",
+    "updated_at": "2026-01-15 15:34:38.350023"
+  },
+  {
+    "_id": "69690912f92003fd8689635d",
+    "id": "57983da4-6a9d-46a3-b948-4a4e6e9a3b58",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "5a7caf79-6381-4c8a-8c83-7d2117f7d02a",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:42.228988",
+    "updated_at": "2026-01-15 15:34:42.228995"
+  },
+  {
+    "_id": "69690912f92003fd8689635e",
+    "id": "eff9cae5-c555-40c7-aa57-2f5047ac2f60",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "5a7caf79-6381-4c8a-8c83-7d2117f7d02a",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-15 15:34:42.247013",
+    "updated_at": "2026-01-15 15:34:42.247019"
+  },
+  {
+    "_id": "69713df53096e2338948246c",
+    "id": "ea08bb92-9d94-4f46-9e58-2f1bec9be4df",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "252fcabe-c9b0-460e-bd8c-278906775ee9",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-21 20:58:29.534788",
+    "updated_at": "2026-01-21 20:58:29.534795"
+  },
+  {
+    "_id": "69713df53096e2338948246d",
+    "id": "f85c8cfd-4e1b-4b0e-873f-16018c01d455",
+    "permissions": [
+      {
+        "id": "admins",
+        "name": "admins",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/admins",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "members",
+        "name": "members",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/members",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "billing",
+        "name": "billing",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/organizations/billing",
+        "owner_id": null,
+        "disabled": true,
+        "modes": null
+      },
+      {
+        "id": "blueprints_read",
+        "name": "blueprints_read",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/blueprints",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "252fcabe-c9b0-460e-bd8c-278906775ee9",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "created_at": "2026-01-21 20:58:29.550461",
+    "updated_at": "2026-01-21 20:58:29.550468"
+  },
+  {
+    "_id": "6973e0f04756f591b2c01f8e",
+    "id": "77a7b775-7bff-4b1f-a8a7-e851b97373f5",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "a9812823-337e-41d2-a86d-ee35f1f65a6f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-23 20:58:24.965342",
+    "updated_at": "2026-01-23 20:58:24.965352"
+  },
+  {
+    "_id": "697415f54756f591b2c01f92",
+    "id": "3d51f129-7717-4258-87c9-d86af9797e5f",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "91080730-3559-4858-811f-0d010f11a27c",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-24 00:44:37.486127",
+    "updated_at": "2026-01-24 00:44:37.486134"
+  },
+  {
+    "_id": "6979c89d0b92cf6094f66457",
+    "id": "50d9cee7-105f-4a5f-979b-a5f86d58ca17",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "e1f2ef6b-6de7-4a30-9928-3317d1085cf7",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-28 08:28:13.333934",
+    "updated_at": "2026-01-28 08:28:13.333943"
+  },
+  {
+    "_id": "6979cdff0b92cf6094f6645a",
+    "id": "f1eba7ba-6015-43b4-bbd0-feb25a0bc7ca",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "e8cf1ac1-a2d8-43a2-a314-eec2aa73d811",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-28 08:51:11.140951",
+    "updated_at": "2026-01-28 08:51:11.140957"
+  },
+  {
+    "_id": "6979daa10b92cf6094f6645d",
+    "id": "0bd27c61-fa81-4185-af25-7a0f2878fb51",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "ff6cd028-90f2-4b0a-8203-5ee16f2972c0",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-28 09:45:05.356212",
+    "updated_at": "2026-01-28 09:45:05.356222"
+  },
+  {
+    "_id": "697b248b0b92cf6094f66460",
+    "id": "e911daad-f6a1-4681-91e2-1d402d86f1f9",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "c05a58da-f2fe-4063-a144-126f8a291c98",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-29 09:12:43.052676",
+    "updated_at": "2026-01-29 09:12:43.052682"
+  },
+  {
+    "_id": "697b26310b92cf6094f66463",
+    "id": "e518eb65-e024-4212-a7b3-bda5719d2cd6",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "496d80c2-b9f2-423f-8c94-fc835d3717bd",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-29 09:19:45.607244",
+    "updated_at": "2026-01-29 09:19:45.607250"
+  },
+  {
+    "_id": "697ba7ed0b92cf6094f66467",
+    "id": "8c59fcc5-65aa-4f2c-8ed1-37bb124e5be8",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "d8351de1-d021-4263-a53b-8290fdaf76f6",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-29 18:33:17.847516",
+    "updated_at": "2026-01-29 18:33:17.847524"
+  },
+  {
+    "_id": "697cb7b90b92cf6094f6646a",
+    "id": "26e1493a-0811-498b-8911-f347bee6536c",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "b6ea9a15-376c-471a-94dd-4b53a6842354",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-30 13:52:57.723293",
+    "updated_at": "2026-01-30 13:52:57.723299"
+  },
+  {
+    "_id": "697ced7c0b92cf6094f6646d",
+    "id": "748d16a7-ffdc-4761-9a16-47a5cb393aac",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "f16ecb9e-693f-4a1a-81cf-d5c3d9186769",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-01-30 17:42:20.641799",
+    "updated_at": "2026-01-30 17:42:20.641808"
+  },
+  {
+    "_id": "69834d0f0b92cf6094f66470",
+    "id": "9fdebd31-7567-43bb-86af-3a9367715162",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "86e1edb5-bda3-420e-af10-2185de2bf6e5",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-04 13:43:43.585723",
+    "updated_at": "2026-02-04 13:43:43.585732"
+  },
+  {
+    "_id": "698522bb0b92cf6094f66473",
+    "id": "139f9937-4e8f-41f3-a86c-b5b2302ce8cb",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "8fa3984b-1bf9-4369-8049-017902ec7be8",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-05 23:07:39.685982",
+    "updated_at": "2026-02-05 23:07:39.685989"
+  },
+  {
+    "_id": "69946b7e0b92cf6094f66476",
+    "id": "6a43ef13-8ac4-4971-b0e9-33dd25064038",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "3b4933a5-c8b1-493c-81d2-76c7ab936fbd",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-17 13:22:06.143757",
+    "updated_at": "2026-02-17 13:22:06.143777"
+  },
+  {
+    "_id": "6996d86b0b92cf6094f66479",
+    "id": "27d15cd1-11ec-4ba1-bdc1-98e183cbcd53",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "39bc3a1f-2628-4474-802f-1ab264827491",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 09:31:23.182628",
+    "updated_at": "2026-02-19 09:31:23.182637"
+  },
+  {
+    "_id": "6997197b0b92cf6094f6647c",
+    "id": "e02b798d-c832-4183-94e7-929c890051ac",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "0b286e51-bb57-43d6-8112-25780b56ef62",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:08:59.088889",
+    "updated_at": "2026-02-19 14:08:59.088896"
+  },
+  {
+    "_id": "699719910b92cf6094f6647f",
+    "id": "eee45bc3-0b70-4e4c-910d-c2edbd279f23",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "9357cbe1-b9df-4e5c-a645-896ac9feeeff",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:09:21.372799",
+    "updated_at": "2026-02-19 14:09:21.372809"
+  },
+  {
+    "_id": "699719b20b92cf6094f66482",
+    "id": "2062404e-3a92-4f23-bec9-0e66c37af759",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "1a61e614-512b-4f5e-b09f-a0d6a674a29f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:09:54.158739",
+    "updated_at": "2026-02-19 14:09:54.158747"
+  },
+  {
+    "_id": "69971a200b92cf6094f66485",
+    "id": "b528563d-6078-4ef4-9d2a-17d138d0a4a2",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "ce20efd4-1d32-45e0-ba7c-b098569f7aa8",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:11:44.996624",
+    "updated_at": "2026-02-19 14:11:44.996635"
+  },
+  {
+    "_id": "69971b660b92cf6094f66488",
+    "id": "eda6a185-9c38-4a04-80fc-51c998019126",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "1925b458-f61b-4607-a13a-4d0d8a32f32c",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:17:10.857048",
+    "updated_at": "2026-02-19 14:17:10.857059"
+  },
+  {
+    "_id": "69971c010b92cf6094f6648b",
+    "id": "d81c1c04-cd30-4f40-91e9-4b4b60ca1d08",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "01f2cbc0-0eac-4506-a3a0-b16da90e1a53",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:19:45.643952",
+    "updated_at": "2026-02-19 14:19:45.643960"
+  },
+  {
+    "_id": "69971c080b92cf6094f6648e",
+    "id": "02124fe0-6d46-4dab-a722-6c5d090b899c",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "e0f52e66-e501-467c-869c-afb75892e490",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:19:52.533884",
+    "updated_at": "2026-02-19 14:19:52.533894"
+  },
+  {
+    "_id": "69971ccb0b92cf6094f66491",
+    "id": "14e2535c-9d78-4ecc-840b-469736e9a504",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "4c24c6ed-55d7-48dd-9221-406a92a99e82",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:23:07.365866",
+    "updated_at": "2026-02-19 14:23:07.365873"
+  },
+  {
+    "_id": "69971da30b92cf6094f66494",
+    "id": "464d8ffd-6603-4231-b914-37f539c1e53c",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "9b86c1f6-4f30-4b8b-89bd-aa2a0dccd6b4",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:26:43.938934",
+    "updated_at": "2026-02-19 14:26:43.938957"
+  },
+  {
+    "_id": "69971eec0b92cf6094f66497",
+    "id": "d304ed7a-32ae-4428-b7d5-57ab8d6067c3",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "a59adb06-8d6b-4221-9e8e-e6660edcd3f7",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:32:12.354116",
+    "updated_at": "2026-02-19 14:32:12.354123"
+  },
+  {
+    "_id": "699725680b92cf6094f6649a",
+    "id": "6c6fa7ac-b06e-4abe-9baf-8a4b654a36d4",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "0073cd70-59c7-491a-9724-90ab2b15a9fc",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 14:59:52.709795",
+    "updated_at": "2026-02-19 14:59:52.709803"
+  },
+  {
+    "_id": "699725df0b92cf6094f6649d",
+    "id": "a6c98e6b-5ed1-401a-86a6-0796edc41b13",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "fd1c04e7-7704-46a4-98ae-8d2219ca6506",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 15:01:51.304265",
+    "updated_at": "2026-02-19 15:01:51.304273"
+  },
+  {
+    "_id": "6997580b0b92cf6094f664a0",
+    "id": "d427c8e2-26b8-4836-8fc2-e4535815c917",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "2cd1e281-7caf-401c-8ea7-c196df8f366d",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-19 18:35:55.776032",
+    "updated_at": "2026-02-19 18:35:55.776039"
+  },
+  {
+    "_id": "69988f8884f372e12c92ae33",
+    "id": "3ba23fc2-b5b3-4816-835d-d532ba4b5247",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "2fd6f7ea-82c0-412e-a2d4-653132350fb3",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-20 16:44:56.387017",
+    "updated_at": "2026-02-20 16:44:56.387026"
+  },
+  {
+    "_id": "699da64984f372e12c92ae36",
+    "id": "58e1553a-4e8f-4edd-ae42-8c4e01ad9017",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "52e90f9a-2dba-4103-aea1-3211c8a80242",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-24 13:23:21.933076",
+    "updated_at": "2026-02-24 13:23:21.933083"
+  },
+  {
+    "_id": "69a18b013873ca8fcfa0cd21",
+    "id": "fa455795-e288-49bb-b3c0-2f2407039017",
+    "permissions": [
+      {
+        "id": "all",
+        "name": "all",
+        "created_at": null,
+        "type": "route",
+        "resource_id": "/all",
+        "owner_id": null,
+        "disabled": false,
+        "modes": null
+      }
+    ],
+    "user_id": "520efbd8-b145-4336-978e-661ea38e8d35",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "owner",
+    "created_at": "2026-02-27 12:16:01.920563",
+    "updated_at": "2026-02-27 12:16:01.920571"
+  },
+  {
+    "_id": "995534ff613d4765bf276834",
+    "id": "472226b6-7adf-4887-adc0-5d52322e75f9",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "38ab0776-5367-4abd-9581-11a21a2adda6",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "4bd1286e78e34afdae74e225",
+    "id": "10a58e74-48fd-4146-9b20-8aed478c2abf",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "9c833f92-aec1-43fd-9627-78f0e579286f",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "ea3854340def43b98320c729",
+    "id": "b5536eaf-d92a-46e2-8f3f-d282eef3de78",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "5cf90939-fe95-4309-9009-7815a415a4a2",
+    "org_id": "36ffb0a2-59d7-43a8-84e9-8dd04fa0e20b",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "73bac879317e4c2a87170af3",
+    "id": "fd5b6c50-ac33-4574-9835-a2c791c1559e",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "a56b68f83f51431f87f53e87",
+    "id": "903a29c5-872f-4975-9f66-4bcb57b4a656",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "e207f687-0485-4450-ac3b-ae2ec938fe61",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "eb281e0ab1ec48da94c53176",
+    "id": "b528d9f0-1248-497a-b8f0-6731f33bf17b",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "8fe1776d-7fb9-40f9-9581-88d4d9956a3f",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "e0a8ef14cc1d4f8891117c0c",
+    "id": "38b5874a-b2dd-4432-9bdc-893694ac69bb",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "72424769-44ed-4287-aea3-691cd43b37bc",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "1d51985c435b498cadc5348c",
+    "id": "fca87eae-8bec-4871-af6f-dcd0854709b9",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "43a73fe0-b745-43e3-960a-2ced36527e2a",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "a05cf0df2e6244bfb7d0df5f",
+    "id": "09e93cfe-c765-4665-83dd-70b4f5632c8c",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "dd8df0d1-5258-4964-9b75-97544f452724",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "f500594241c54c6d991715d8",
+    "id": "06d2b285-0f53-4c96-a8d3-1100fab52035",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "d6b46f387bf745929b66f4b4",
+    "id": "a6903907-4f7f-4da7-a930-1c573b58ab5d",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "0482f3dfc1a04856a5dfba77",
+    "id": "34e5892d-01c2-4fe6-9297-e5a28a161aff",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "edfac184-796b-4973-9bce-a37bd1950bf2",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "ca4b28ef75c0434fb1fcba87",
+    "id": "498d6415-b709-4baf-8282-59f3fc7137b2",
+    "permissions": [
+      "*:*"
+    ],
+    "user_id": "066e0efc-f2d1-407c-ab7b-2b84db8eef54",
+    "org_id": "8e3913f0-f583-4c48-b00a-a255038b7a25",
+    "role": "owner",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "0d7472ff9a664904b2a53a8c",
+    "id": "bbc50010-0241-4231-811a-9b5b0bf2bcb9",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "4c50c385-82e7-45a8-b4a1-f2d806627ee3",
+    "org_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "739a3a6fc6864a7fbb3c133a",
+    "id": "81397b70-8e7c-4018-b6ae-2c9d7d3e45dc",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "99e8a4e0-8115-4297-9ec5-06ef19b51e21",
+    "org_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "b4bf7fff2043474d9e2ac6a5",
+    "id": "8f821226-5a1c-4841-bd3a-0cb81270e6be",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "b6ea9a15-376c-471a-94dd-4b53a6842354",
+    "org_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "ad6f2db47642418bb9cf809d",
+    "id": "a9c6d7b2-2089-4a06-a052-e92f1126fc50",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "3c8cbf81-15b4-4fc2-9423-e4695d84ebd9",
+    "org_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "849a3d33db0244f2ad1f57c2",
+    "id": "301e43d6-37bb-4e59-b851-74441fb8147e",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "ec4fb6cf-d1cf-4082-9882-4a2511c7344f",
+    "org_id": "22fff81c-d484-49cf-a994-9fc4781c8c0a",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "4c357246580448fd8b06e3d9",
+    "id": "492497cb-9b61-4816-999b-6c4c9d3eaf6a",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "5ff40369-0e80-4511-90bb-200258acbdca",
+    "org_id": "e207f687-0485-4450-ac3b-ae2ec938fe61",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "8f2e74fc38d04b7d83532d52",
+    "id": "586b2d9f-5d7c-457b-baeb-3cc511f57a5b",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "b89d9076-7a9e-4b66-a025-85cc197743e9",
+    "org_id": "e207f687-0485-4450-ac3b-ae2ec938fe61",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "ce48071335b04fac89f2bb8e",
+    "id": "31fba384-d10a-494e-a734-cc5acb03dbba",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "45c7ae05-143b-429b-b2a6-05bbd5a44ebb",
+    "org_id": "8fe1776d-7fb9-40f9-9581-88d4d9956a3f",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "cc7d8e6d4d0745d5aa5bf51b",
+    "id": "dce2caf5-7dae-4d4b-b5e6-50b99e33edb2",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "685db67b-2849-4a1b-bdf0-9ede1fa955db",
+    "org_id": "8fe1776d-7fb9-40f9-9581-88d4d9956a3f",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "bd3e4ef8fca8423ea168c96a",
+    "id": "1699bc30-1614-49a3-b179-32966800a46e",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "e8cf1ac1-a2d8-43a2-a314-eec2aa73d811",
+    "org_id": "72424769-44ed-4287-aea3-691cd43b37bc",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "ef257a2dc7d84e028e08a20a",
+    "id": "296ea818-01ef-44a8-b1bf-720db1641b6e",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "ff6cd028-90f2-4b0a-8203-5ee16f2972c0",
+    "org_id": "72424769-44ed-4287-aea3-691cd43b37bc",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "2de226948fa44e429edc5137",
+    "id": "b3dccd30-d7e9-43e6-ab9b-980e577106ce",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "7b2cbd0a-ec6d-4584-88d3-6e68c1e8dfd1",
+    "org_id": "43a73fe0-b745-43e3-960a-2ced36527e2a",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "7fff285b10fc4141b9e21014",
+    "id": "cb6da162-0a75-4095-a058-f013627e9016",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "d8351de1-d021-4263-a53b-8290fdaf76f6",
+    "org_id": "dd8df0d1-5258-4964-9b75-97544f452724",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "9dc254e342ec43888ffa963a",
+    "id": "7c58cef4-38a1-424a-b3db-edf4df75d06b",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "f16ecb9e-693f-4a1a-81cf-d5c3d9186769",
+    "org_id": "dd8df0d1-5258-4964-9b75-97544f452724",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "a4bd64c3626c407b83fb8fd2",
+    "id": "225193f2-3e50-4fb0-81bd-a8f1408cc6c9",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "a997f816-6faa-4f3c-bcfc-071f4e8b3248",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "4a256ff1e30e4b95ade1411d",
+    "id": "80111727-afed-48c1-a037-68379f8f6749",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "52427a23-9ef3-45ba-bd9b-8de4f03a86d7",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "c13fc2df6e034d6f9a1538e7",
+    "id": "4b61acf3-f14e-4bd8-9c50-7c2d9fd4ccc4",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "79e47f2d-ae27-4ac6-8b2c-6474ca4d7c32",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "617ece9f5f1d4363a9c5fa07",
+    "id": "326166f6-8acc-408e-8528-785dc5b8bf20",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "27cce81d-cd67-47e3-9158-386883031327",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "74326024cb0349c3884271cd",
+    "id": "5f0c317b-cdc9-4d7a-9dce-31a3080e3074",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "b7355750-5665-4354-aca9-fcd02089972b",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "296352c5d33c4d97986b4f0f",
+    "id": "62553ed4-6b3a-45ef-ad74-c9816839c510",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "7a42006d-a5db-48e4-aa90-d7b77cc67043",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "872e3f8b951e4a379b463285",
+    "id": "b2a55e97-296b-4b49-97b1-1213c48dfc57",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "5a7caf79-6381-4c8a-8c83-7d2117f7d02a",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "c4eca232a627466da4e541ab",
+    "id": "005cc2f6-b946-4bfd-9795-80eb868e3eb9",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "7b8ae07c-bd3b-41e0-bfbe-b623d91942e1",
+    "org_id": "4cf3f465-36b3-4772-a119-eaa52c074511",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "00dfc8704090468aabcdb858",
+    "id": "b0d6cdef-d309-4c58-8afa-e10c3227ebad",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "4d5f770c-336f-418f-b6f9-27779f7917fe",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "36334414c4ab4b46a7c9abb9",
+    "id": "ec198e24-6270-4216-a046-bf1a9f144b63",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "aab4ee3d-c9c3-4969-a024-d144e6ed326f",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "eb8bbddb539b44198ad2348d",
+    "id": "846cadee-e4ad-41b8-811b-71d3a9a5cb78",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "852a75ba-2942-4e1a-9d9a-12e0d2d316b5",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "01196705ebbb4529bcedbca5",
+    "id": "c38354ab-995d-41e7-a942-b1b07d617901",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "7c624ac0-424a-4355-9843-34b6b145c7f8",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "8445edc8f0ae4191a4d83396",
+    "id": "e3ebb957-d510-45c5-bef8-9d536cf6cf80",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "496d80c2-b9f2-423f-8c94-fc835d3717bd",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "63d36d1bee804550bc1e68f7",
+    "id": "cd6ee28a-5c7b-4371-b21c-564d71a34f2d",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "252fcabe-c9b0-460e-bd8c-278906775ee9",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "496b3f2d1be347e7a3e7b92f",
+    "id": "d68e165e-4ef7-4af2-a7ad-db41adbf6147",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "990a3893-e77f-40c8-9e53-0850a2241ebd",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "4d6fcb549bb04fb698eb4411",
+    "id": "12537a00-d388-4a94-9432-b7075f727d63",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "c52b5e98-fa81-4128-9184-fd8e9dc854b6",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "4a07dc4acfc542ed81cb9e67",
+    "id": "e5f1b2ad-7301-471e-800f-98557a41c908",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "7cf5a241-f2d1-4165-8dee-dc49ecd8dbc3",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "9900c193ce7a45c5bffd3b12",
+    "id": "c126167c-a6dc-43eb-97a4-6ca2f803eb23",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "806e60c5-9973-4fab-b55a-b7cfeb125a37",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "4cb61839eefc45bd95de2107",
+    "id": "f364d3ce-6551-4386-ac0f-3da7d18b1b6b",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "c05a58da-f2fe-4063-a144-126f8a291c98",
+    "org_id": "c8f9e591-773d-4c1a-a277-6cac1b1863fb",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "26eb6d73df3b4484a40c4614",
+    "id": "205e6ef7-c32b-4487-a6f4-913476920643",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "91080730-3559-4858-811f-0d010f11a27c",
+    "org_id": "edfac184-796b-4973-9bce-a37bd1950bf2",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "82d9a003385746d19cfe3765",
+    "id": "f16431f0-6561-47b4-b913-b6936a922687",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "7b0e10fe-ebb3-41b1-a241-505e7fcf7062",
+    "org_id": "edfac184-796b-4973-9bce-a37bd1950bf2",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "3432567389cf41f5a6a11311",
+    "id": "a0129b01-b53d-4e4c-a0e5-c780c4937781",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "a9812823-337e-41d2-a86d-ee35f1f65a6f",
+    "org_id": "edfac184-796b-4973-9bce-a37bd1950bf2",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "023086bca8214431ad911fd1",
+    "id": "6e04c7be-fe11-4dc2-998d-40f5e6275d2d",
+    "permissions": [
+      "organizations:read",
+      "agents:read",
+      "agents:execute",
+      "workflows:read",
+      "workflows:execute",
+      "apps:read",
+      "groups:read",
+      "keys:read"
+    ],
+    "user_id": "e1f2ef6b-6de7-4a30-9928-3317d1085cf7",
+    "org_id": "edfac184-796b-4973-9bce-a37bd1950bf2",
+    "role": "member",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  },
+  {
+    "_id": "e83995774aac4fa1a6793920",
+    "id": "eaff5e6d-cadb-44d6-882a-dd2d693dfec2",
+    "permissions": [
+      "organizations:manage",
+      "members:*",
+      "roles:*",
+      "billing:*",
+      "keys:*",
+      "agents:*",
+      "knowledge_base:*",
+      "workflows:*",
+      "apps:*",
+      "groups:*",
+      "policies:*",
+      "aep:*",
+      "tools:*",
+      "providers:*",
+      "models:*",
+      "views:*",
+      "blueprints:*",
+      "credentials:*"
+    ],
+    "user_id": "ea7e974c-a93d-44e3-89b7-db5a47eb7ec3",
+    "org_id": "8e3913f0-f583-4c48-b00a-a255038b7a25",
+    "role": "admin",
+    "is_new_rbac": true,
+    "created_at": "2026-03-01 16:34:06.582422",
+    "updated_at": "2026-03-01 16:34:06.582422"
+  }
+]
