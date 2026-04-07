@@ -1,0 +1,189 @@
+[
+  {
+    "_id": "691a96ebec444df857dcea53",
+    "resource": "agent",
+    "action": "create",
+    "action_cost": 0.05,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea54",
+    "resource": "knowledge_base",
+    "action": "create",
+    "action_cost": 1,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea55",
+    "resource": "rai",
+    "action": "create",
+    "action_cost": 1,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea56",
+    "resource": "tool",
+    "action": "create",
+    "action_cost": 0.1,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea57",
+    "resource": "evaluation_suite",
+    "action": "create",
+    "action_cost": 2,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea58",
+    "resource": "knowledge_base",
+    "action": "run",
+    "action_cost": 0.05,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea59",
+    "resource": "memory",
+    "action": "run",
+    "action_cost": 0.005,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea5a",
+    "resource": "hallucination_manager",
+    "action": "run",
+    "action_cost": 0.1,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea5b",
+    "resource": "rai",
+    "action": "run",
+    "action_cost": 0.1,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea5c",
+    "resource": "evaluation",
+    "action": "saas_run",
+    "action_cost": 1,
+    "unit": 100,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea5d",
+    "resource": "evaluation",
+    "action": "enterprise_run",
+    "action_cost": 1,
+    "unit": 50,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea5e",
+    "resource": "api",
+    "action": "light_call",
+    "action_cost": 0.05,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea5f",
+    "resource": "web",
+    "action": "fetch",
+    "action_cost": 0.1,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "691a96ebec444df857dcea60",
+    "resource": "web",
+    "action": "deep_crawl",
+    "action_cost": 0.25,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "693b70c66235ee2baa897c03",
+    "resource": "session",
+    "action": "create",
+    "action_cost": 0.05,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-12-12T02:50:44.814Z",
+    "updated_at": "2025-12-12T02:50:44.814Z"
+  },
+  {
+    "_id": "694061426235ee2baa897c14",
+    "resource": "evaluation_environment",
+    "action": "create",
+    "action_cost": 2,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  },
+  {
+    "_id": "694cc2a3b1710d9e79b5d9f9",
+    "resource": "tool",
+    "action": "run",
+    "action_cost": 0.05,
+    "unit": 1,
+    "version": 1,
+    "is_active": true,
+    "created_at": "2025-11-17T02:50:44.814Z",
+    "updated_at": "2025-11-17T02:50:44.814Z"
+  }
+]

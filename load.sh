@@ -4,7 +4,7 @@ set -euo pipefail
 # -------------------------
 # CONFIGURATION
 # -------------------------
-COSMOS_CONNECTION_STRING="mongodb://ebticpdna21aiorchcosmosdb:NzIua1pPr4C6L8ItLwI4falLsn4cVrgg4bp3HR6MF3rWsdrpsb4Ml1wejAekpKlbLKcX5AnZn3XnACDbTqZc0w==@ebticpdna21aiorchcosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ebticpdna21aiorchcosmosdb@"
+COSMOS_CONNECTION_STRING="mongodb://ebticppem20aiorchcosmosdb:JgREq0UF1Nh9AzigIqsRtSZXHoorHrFKe0LWyG69MpayOFeDSD9Ap6K10HzJAQXxoyGlBnieNcvtACDbViblTA==@ebticppem20aiorchcosmosdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ebticppem20aiorchcosmosdb@"
 
 MONGO_DUMP_PATH="./mongo-dump"
 
